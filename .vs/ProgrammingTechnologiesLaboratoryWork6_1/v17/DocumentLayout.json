@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\Programs\\ProgrammingTechnologiesLaboratoryWorks_C#\\ProgrammingTechnologiesLaboratoryWork6_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B3B6E4-7F1D-4E8A-9F3D-F6B7E2D2B8C9}|ProgrammingTechnologiesLaboratoryWork6_1.csproj|d:\\university\\programs\\programmingtechnologieslaboratoryworks_c#\\programmingtechnologieslaboratorywork6_1\\threadcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B3B6E4-7F1D-4E8A-9F3D-F6B7E2D2B8C9}|ProgrammingTechnologiesLaboratoryWork6_1.csproj|solutionrelative:threadcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B3B6E4-7F1D-4E8A-9F3D-F6B7E2D2B8C9}|ProgrammingTechnologiesLaboratoryWork6_1.csproj|d:\\university\\programs\\programmingtechnologieslaboratoryworks_c#\\programmingtechnologieslaboratorywork6_1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8B3B6E4-7F1D-4E8A-9F3D-F6B7E2D2B8C9}|ProgrammingTechnologiesLaboratoryWork6_1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\University\\Programs\\ProgrammingTechnologiesLaboratoryWorks_C#\\ProgrammingTechnologiesLaboratoryWork6_1\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\University\\Programs\\ProgrammingTechnologiesLaboratoryWorks_C#\\ProgrammingTechnologiesLaboratoryWork6_1\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:24:27.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThreadCalculator.cs",
+              "DocumentMoniker": "D:\\University\\Programs\\ProgrammingTechnologiesLaboratoryWorks_C#\\ProgrammingTechnologiesLaboratoryWork6_1\\ThreadCalculator.cs",
+              "RelativeDocumentMoniker": "ThreadCalculator.cs",
+              "ToolTip": "D:\\University\\Programs\\ProgrammingTechnologiesLaboratoryWorks_C#\\ProgrammingTechnologiesLaboratoryWork6_1\\ThreadCalculator.cs",
+              "RelativeToolTip": "ThreadCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:24:26.77Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

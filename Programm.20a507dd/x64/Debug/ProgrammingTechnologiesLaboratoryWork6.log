@@ -1,0 +1,17 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Programm.20a507dd\x64\Debug\) содержит файлы, которые используются совместно с другим проектом (ProgrammingTechnologiesLaboratoryWork6.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  MyDll.cpp
+D:\University\Programs\ProgrammingTechnologiesLaboratoryWork6_1\MyDll.cpp(1,10): warning C4651: параметр "/D__CLR_VER=40809282" указан для предкомпилированного заголовка, но не для текущей компиляции
+  (компиляция исходного файла "/MyDll.cpp")
+  
+  MyDllForm.cpp
+D:\University\Programs\ProgrammingTechnologiesLaboratoryWork6_1\MyDllForm.cpp(1,10): warning C4651: параметр "/D__CLR_VER=40809282" указан для предкомпилированного заголовка, но не для текущей компиляции
+  (компиляция исходного файла "/MyDllForm.cpp")
+  
+  MyThreadDll.cpp
+D:\University\Programs\ProgrammingTechnologiesLaboratoryWork6_1\MyThreadDll.cpp(2,10): warning C4651: параметр "/D__CLR_VER=40809282" указан для предкомпилированного заголовка, но не для текущей компиляции
+  (компиляция исходного файла "/MyThreadDll.cpp")
+  
+  Создание кода...
+  dllmain.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+     Создается библиотека D:\University\Programs\ProgrammingTechnologiesLaboratoryWork6_1\x64\Debug\ProgrammingTechnologiesLaboratoryWork6_1.lib и объект D:\University\Programs\ProgrammingTechnologiesLaboratoryWork6_1\x64\Debug\ProgrammingTechnologiesLaboratoryWork6_1.exp
+  ProgrammingTechnologiesLaboratoryWork6.vcxproj -> D:\University\Programs\ProgrammingTechnologiesLaboratoryWork6_1\x64\Debug\ProgrammingTechnologiesLaboratoryWork6_1.dll
