@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Neiran\\Desktop\\Variant13\\ProgrammingTechnologiesLaboratoryWork6_1\\ProgrammingTechnologiesLaboratoryWork6_1.csproj": {}
+    "C:\\Users\\Neiran\\Desktop\\KursWork\\ProgrammingTechnologiesLaboratoryWork6_1\\ProgrammingTechnologiesLaboratoryWork6_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Neiran\\Desktop\\Variant13\\ProgrammingTechnologiesLaboratoryWork6_1\\ProgrammingTechnologiesLaboratoryWork6_1.csproj": {
+    "C:\\Users\\Neiran\\Desktop\\KursWork\\ProgrammingTechnologiesLaboratoryWork6_1\\ProgrammingTechnologiesLaboratoryWork6_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Neiran\\Desktop\\Variant13\\ProgrammingTechnologiesLaboratoryWork6_1\\ProgrammingTechnologiesLaboratoryWork6_1.csproj",
+        "projectUniqueName": "C:\\Users\\Neiran\\Desktop\\KursWork\\ProgrammingTechnologiesLaboratoryWork6_1\\ProgrammingTechnologiesLaboratoryWork6_1.csproj",
         "projectName": "ProgrammingTechnologiesLaboratoryWork6_1",
-        "projectPath": "C:\\Users\\Neiran\\Desktop\\Variant13\\ProgrammingTechnologiesLaboratoryWork6_1\\ProgrammingTechnologiesLaboratoryWork6_1.csproj",
+        "projectPath": "C:\\Users\\Neiran\\Desktop\\KursWork\\ProgrammingTechnologiesLaboratoryWork6_1\\ProgrammingTechnologiesLaboratoryWork6_1.csproj",
         "packagesPath": "C:\\Users\\Neiran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Neiran\\Desktop\\Variant13\\ProgrammingTechnologiesLaboratoryWork6_1\\obj\\",
+        "outputPath": "C:\\Users\\Neiran\\Desktop\\KursWork\\ProgrammingTechnologiesLaboratoryWork6_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

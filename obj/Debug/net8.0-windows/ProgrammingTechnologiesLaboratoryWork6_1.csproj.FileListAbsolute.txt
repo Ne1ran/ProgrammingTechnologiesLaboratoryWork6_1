@@ -31,3 +31,15 @@ C:\Users\Neiran\Desktop\Variant13\ProgrammingTechnologiesLaboratoryWork6_1\obj\D
 C:\Users\Neiran\Desktop\Variant13\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\refint\ProgrammingTechnologiesLaboratoryWork6_1.dll
 C:\Users\Neiran\Desktop\Variant13\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.pdb
 C:\Users\Neiran\Desktop\Variant13\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ref\ProgrammingTechnologiesLaboratoryWork6_1.dll
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\bin\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.deps.json
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\bin\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.dll
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\bin\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.pdb
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.AssemblyInfoInputs.cache
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.AssemblyInfo.cs
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.csproj.CoreCompileInputs.cache
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.sourcelink.json
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.dll
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\refint\ProgrammingTechnologiesLaboratoryWork6_1.dll
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ProgrammingTechnologiesLaboratoryWork6_1.pdb
+C:\Users\Neiran\Desktop\KursWork\ProgrammingTechnologiesLaboratoryWork6_1\obj\Debug\net8.0-windows\ref\ProgrammingTechnologiesLaboratoryWork6_1.dll

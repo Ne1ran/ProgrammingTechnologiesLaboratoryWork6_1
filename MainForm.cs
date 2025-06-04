@@ -16,6 +16,10 @@ public partial class MainForm : Form
         StartThreadCalculations();
     }
 
+    /// <summary>
+    /// Запускает вычисления в нескольких потоках
+    /// Создает ThreadCalculator для каждого потока и инициализирует их
+    /// </summary>
     private void StartThreadCalculations()
     {
         Thread[] threads = new Thread[NumberOfThreads];
@@ -28,6 +32,10 @@ public partial class MainForm : Form
         }
     }
 
+    /// <summary>
+    /// Callback-метод для обновления UI из других потоков
+    /// Проверяет необходимость вызова через Invoke для потокобезопасности
+    /// </summary>
     private void ChangeComponent(string startTime, string finishTime, string duration, int threadId, int progressValue)
     {
         if (InvokeRequired) {
@@ -43,6 +51,9 @@ public partial class MainForm : Form
         UpdateUI();
     }
 
+    /// <summary>
+    /// Обновляет элементы интерфейса на основе полученных данных
+    /// </summary>
     private void UpdateUI()
     {
         labelStartTime.Text = StartTimeOfProcess;

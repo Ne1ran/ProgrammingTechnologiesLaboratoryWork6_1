@@ -1,5 +1,8 @@
 namespace ProgrammingTechnologiesLaboratoryWork6_1;
 
+/// <summary>
+/// Делегат для обратной связи с основным потоком UI
+/// </summary>
 public delegate void ThreadCallBack(string startTimeOfProcess, string finishTimeOfProcess, string durationOfProcess, int currentThreadId, int progressBarValue);
 
 public class ThreadCalculator(int threadId, int minX, int maxX, int minY, int maxY, int sizeOfArrays, ThreadCallBack callback)
@@ -19,6 +22,10 @@ public class ThreadCalculator(int threadId, int minX, int maxX, int minY, int ma
 
     private static readonly object _lockObject = new();
 
+    /// <summary>
+    /// Основной метод выполнения вычислений в потоке
+    /// Создает массивы, заполняет их аргументами и вычисляет значения функции
+    /// </summary>
     public void ThreadDoWork()
     {
         _startTime = DateTime.Now;
@@ -34,6 +41,9 @@ public class ThreadCalculator(int threadId, int minX, int maxX, int minY, int ma
         }
     }
 
+    /// <summary>
+    /// Отправляет результаты вычислений через callback в основной поток
+    /// </summary>
     private void SendCallback()
     {
         DateTime finishTime = DateTime.Now;
@@ -63,6 +73,9 @@ public class ThreadCalculator(int threadId, int minX, int maxX, int minY, int ma
         }
     }
 
+    /// <summary>
+    /// Вычисляет значения функции для всех комбинаций x и y
+    /// </summary>
     private void CalculateVariantFunction()
     {
         for (int i = 0; i < sizeOfArrays; i++)
@@ -74,6 +87,9 @@ public class ThreadCalculator(int threadId, int minX, int maxX, int minY, int ma
         }
     }
 
+    /// <summary>
+    /// Записывает результаты в файл с синхронизацией потоков
+    /// </summary>
     private void PrintToFile()
     {
         string fileName = @"C:\Save\resultsDll.txt";
@@ -84,7 +100,7 @@ public class ThreadCalculator(int threadId, int minX, int maxX, int minY, int ma
             string line = string.Empty;
             for (int j = 0; j < sizeOfArrays; j++)
             {
-                line += $"Z[{i}][{j}] = {_arrayOfValuesZ[i, j]}; ";
+                line += $"[{i}][{j}] z = {_arrayOfValuesZ[i, j]}, x = {_arrayOfArgumentsX[i]}, y = {_arrayOfArgumentsY[j]}; ";
             }
             writer.WriteLine(line);
         }
@@ -93,9 +109,11 @@ public class ThreadCalculator(int threadId, int minX, int maxX, int minY, int ma
         writer.WriteLine();
         writer.WriteLine($"Поток номер - {threadId}; Время - {finishTime:HH:mm:ss}.{finishTime.Millisecond};");
         writer.WriteLine();
-        writer.WriteLine();
     }
 
+    /// <summary>
+    /// Математическая функция для вычисления значений z = (e^x * (sin(y) - cos^2(y))) / (sin^2(x) + cos(x))
+    /// </summary>
     private static double Function13(double x, double y)
     {
         return (Math.Exp(x) * (Math.Sin(y) - Math.Pow(Math.Cos(y), 2))) / (Math.Pow(Math.Sin(x), 2) + Math.Cos(x));
